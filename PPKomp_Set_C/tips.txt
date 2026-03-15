@@ -1,0 +1,17 @@
+use :
+
+print(*list, sep=", ") 
+to print out list of numbers from array in 1 row
+-------------------------
+M,N=map(int,input().split()) 
+to insert 2 var in 1 row
+-------------------------
+format(-5.0, "g") 
+to convert data type(float->int)
+-------------------------
+M = [int(x) for x in input("").split()]
+list comprehension to accept as many numbers in 1 line 
+-------------------------
+M.sort(reverse=True)
+sort number largest-->smallest
+
